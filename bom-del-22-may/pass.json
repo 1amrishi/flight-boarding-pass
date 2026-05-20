@@ -150,7 +150,6 @@
     "boardingZone": "C",
     "passengerCapabilities": [
       "PKPassengerCapabilityCarryon",
-      "PKPassengerCapabilityPriorityBoarding",
       "PKPassengerCapabilityPersonalItem"
     ]
   },
