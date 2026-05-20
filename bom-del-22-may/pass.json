@@ -1,8 +1,5 @@
 {
-  "managementURL": "https://example.com/manage/SK042",
-  "changeSeatURL": "https://example.com/seats/SK042",
   "purchaseWifiURL": "https://example.com/wifi/SK042",
-  "orderFoodURL": "https://example.com/meals/SK042",
   "upgradeURL": "https://example.com/upgrade/SK042",
   "purchaseAdditionalBaggageURL": "https://example.com/baggage/SK042",
   "purchaseLoungeAccessURL": "https://example.com/lounge/SK042",
@@ -17,58 +14,63 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "A3AB5ED76EA50D78",
-  "organizationName": "BOM-DEL-22 MAY",
-  "description": "Boarding pass — flight KA 120",
+  "organizationName": "Bombay Print Lab",
+  "description": "BOM-DEL - 22 MAY",
   "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(16, 185, 129)",
-  "labelColor": "rgb(209, 250, 229)",
+  "backgroundColor": "rgb(153, 27, 27)",
+  "labelColor": "rgb(254, 202, 202)",
   "boardingPass": {
     "headerFields": [
       {
-        "key": "h1",
-        "label": "GATE",
-        "value": "C18"
-      },
-      {
-        "key": "h2",
+        "key": "seat",
         "label": "SEAT",
-        "value": "2A"
+        "value": "21A"
       }
     ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Hakodate",
-        "value": "HKD"
+        "label": "Mumbai",
+        "value": "BOM"
       },
       {
         "key": "to",
-        "label": "Nagoya",
-        "value": "NGO"
+        "label": "Delhi",
+        "value": "DEL"
       }
     ],
     "secondaryFields": [
       {
-        "key": "s1",
+        "key": "passenger",
         "label": "PASSENGER",
-        "value": "Holder 5155"
+        "value": "Rishi Agarwal"
       },
       {
-        "key": "s2",
+        "key": "flight",
         "label": "FLIGHT",
-        "value": "KA 120"
+        "value": "AI2432"
       }
     ],
     "auxiliaryFields": [
       {
-        "key": "dep",
+        "key": "boards",
         "label": "BOARDS",
-        "value": "0:18"
+        "value": "8:30"
       },
       {
-        "key": "arr",
+        "key": "terminal",
+        "label": "TERM",
+        "value": "2"
+      },
+      {
+        "key": "group",
+        "label": "GROUP",
+        "value": "C"
+      },
+      {
+        "key": "arrives",
         "label": "ARRIVES",
-        "value": "6:28"
+        "value": "11:50"
       }
     ],
     "backFields": [
@@ -83,58 +85,44 @@
   },
   "logoText": "BOM-DEL-22 MAY",
   "semantics": {
-    "airlineCode": "KA",
     "flightCode": "KA120",
-    "flightNumber": 120,
-    "confirmationNumber": "9X2K7Q",
-    "departureAirportCode": "HKD",
-    "departureAirportName": "San Francisco International Airport",
-    "departureCityName": "San Francisco",
-    "departureLocationTimeZone": "America/Los_Angeles",
-    "destinationAirportCode": "NGO",
-    "destinationAirportName": "John F. Kennedy International Airport",
-    "destinationCityName": "New York",
-    "destinationLocationTimeZone": "America/New_York",
-    "originalBoardingDate": "2026-05-20T18:48:25.503Z",
-    "originalDepartureDate": "2026-05-20T19:28:25.503Z",
-    "originalArrivalDate": "2026-05-21T00:58:25.503Z",
-    "currentDepartureDate": "2026-05-20T19:28:25.503Z",
-    "currentArrivalDate": "2026-05-21T00:58:25.503Z",
+    "flightNumber": 2432,
+    "confirmationNumber": "7JYJDH",
+    "departureAirportCode": "BOM",
+    "departureAirportName": "Chhatrapati Shivaji Maharaj International Airport",
+    "departureCityName": "Mumbai",
+    "departureLocationTimeZone": "Asia/Kolkata",
+    "destinationAirportCode": "DEL",
+    "destinationAirportName": "Indira Gandhi International Airport",
+    "destinationCityName": "Delhi",
+    "destinationLocationTimeZone": "Asia/Kolkata",
+    "originalArrivalDate": "2026-05-22T06:20:00.000Z",
+    "currentArrivalDate": "2026-05-22T06:20:00.000Z",
     "passengerName": {
-      "givenName": "Holder",
-      "familyName": "5155"
+      "givenName": "Rishi",
+      "familyName": "Agarwal"
     },
-    "departureGate": "B14",
     "departureTerminal": "2",
     "departureLocation": {
-      "latitude": 37.6213,
-      "longitude": -122.379
+      "latitude": 19.08869,
+      "longitude": 72.86792
     },
     "destinationGate": "A8",
     "destinationTerminal": "4",
     "destinationLocation": {
-      "latitude": 40.6413,
-      "longitude": -73.7781
+      "latitude": 28.5665,
+      "longitude": 77.10309
     },
-    "boardingGroup": "2",
-    "boardingSequenceNumber": "038",
-    "boardingZone": "A",
+    "boardingSequenceNumber": "57",
     "ticketFareClass": "Economy",
-    "transitProvider": "Scandinavian Airlines",
+    "transitProvider": "Air India",
     "transitStatus": "On Time",
     "securityScreening": "TSA PreCheck",
-    "priorityStatus": "Priority",
     "membershipProgramName": "Kumo Miles",
     "membershipProgramNumber": "SK123456789",
-    "membershipProgramStatus": "Gold",
     "vehicleName": "Airbus A350",
     "vehicleNumber": "SE-RSA",
     "vehicleType": "Airplane",
-    "internationalDocumentsAreVerified": true,
-    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
-    "passengerEligibleSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck"
-    ],
     "departureLocationSecurityPrograms": [
       "PKTransitSecurityProgramTSAPreCheck",
       "PKTransitSecurityProgramCLEAR"
@@ -145,26 +133,26 @@
     "loungePlaceIDs": [
       "SK-SFO-LOUNGE"
     ],
-    "passengerCapabilities": [
-      "PKPassengerCapabilityCarryon",
-      "PKPassengerCapabilityPriorityBoarding"
-    ],
-    "passengerServiceSSRs": [
-      "PETC"
-    ],
-    "passengerInformationSSRs": [
-      "INFT"
-    ],
     "passengerAirlineSSRs": [
       "SKY"
     ],
     "seats": [
       {
-        "seatRow": "2",
+        "seatRow": "21",
         "seatNumber": "A"
       }
     ],
-    "currentBoardingDate": "2026-05-20T18:48:25.503Z"
+    "airlineCode": "AI",
+    "originalBoardingDate": "2026-05-22T03:00:00.000Z",
+    "originalDepartureDate": "2026-05-22T04:00:00.000Z",
+    "currentBoardingDate": "2026-05-22T03:00:00.000Z",
+    "currentDepartureDate": "2026-05-22T04:00:00.000Z",
+    "boardingZone": "C",
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon",
+      "PKPassengerCapabilityPriorityBoarding",
+      "PKPassengerCapabilityPersonalItem"
+    ]
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
@@ -172,12 +160,13 @@
   ],
   "barcodes": [
     {
-      "format": "PKBarcodeFormatCode128",
-      "message": "KA120-H-5155-2A",
-      "messageEncoding": "iso-8859-1",
-      "altText": "KA 120 / 2A"
+      "format": "PKBarcodeFormatQR",
+      "message": "M1AGARWAL/RISHI       E7JYJDH BOMDELAI 2432 142Y021A0057 358>8180 M6140BAI              2509858975994940 AI                    *50600000K09         ",
+      "messageEncoding": "iso-8859-1"
     }
   ],
+  "relevantDate": "2026-05-22T00:30:00.000Z",
+  "expirationDate": "2026-05-22T06:30:00.000Z",
   "webServiceURL": "https://example.invalid/passkit",
   "authenticationToken": "0000000000000000"
 }
